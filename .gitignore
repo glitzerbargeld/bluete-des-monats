@@ -1,0 +1,27 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore local development files
+wp-config.php
+local-config.php
+error_log
+
+# Ignore build artifacts
+build/
+
+# Ignore dependencies
+/node_modules/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore user-specific IDE configuration
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore exported databases
+*.sql

@@ -1,0 +1,22 @@
+#bluete-des-monats img {
+    max-width: 500px;
+}
+
+#bluete-des-monats a {
+    max-width: 11em;
+    text-align: center;
+    background: black;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+#bluete-des-monats h2 {
+    font-size: 3em;
+}
+
+.text-wrapper {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+

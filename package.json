@@ -1,0 +1,33 @@
+{
+  "name": "bluete-des-monats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glitzerbargeld/bluete-des-monats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glitzerbargeld/bluete-des-monats/issues"
+  },
+  "homepage": "https://github.com/glitzerbargeld/bluete-des-monats#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@wordpress/babel-preset-default": "^7.13.0",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "mini-css-extract-plugin": "^2.7.3",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  }
+}
