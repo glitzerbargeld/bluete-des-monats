@@ -7,9 +7,6 @@ wp-config.php
 local-config.php
 error_log
 
-# Ignore build artifacts
-build/
-
 # Ignore dependencies
 /node_modules/
 
